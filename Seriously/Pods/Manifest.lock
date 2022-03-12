@@ -1,0 +1,16 @@
+PODS:
+  - CircularCarousel (1.0.0)
+
+DEPENDENCIES:
+  - CircularCarousel
+
+SPEC REPOS:
+  trunk:
+    - CircularCarousel
+
+SPEC CHECKSUMS:
+  CircularCarousel: 6248f5892c018fc2d115d4d5186be91d46bacbea
+
+PODFILE CHECKSUM: e73fc9cde00f1751281f067bd96fb038f8c43ccf
+
+COCOAPODS: 1.11.2
