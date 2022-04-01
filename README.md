@@ -3,7 +3,7 @@
 </p>
 
 
-After a month building this up, I am finally quite satisfied about how my very first self Swift project it’s working. Please meet **“Seriously”**, an app that displays TV Shows information (yes, that really was the best name that i could think. Seriously, Im not joking).
+After a month building this up, I am finally quite satisfied about how my very first Swift self project it’s working. Please meet **“Seriously”**, an app that displays TV Shows information (yes, that really was the best name that i could think. Seriously, Im not joking).
 
 <p align="center"><img src="https://user-images.githubusercontent.com/84334801/158044511-d606a44f-942c-4f3d-8a9d-4f45310794d4.gif"/></p>
 
