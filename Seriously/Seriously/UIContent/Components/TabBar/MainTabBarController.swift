@@ -17,7 +17,7 @@ class MainTabBarController: UITabBarController {
     }
     
     private enum Metrics {
-        static let tabBarPadding: CGFloat = -10
+        static let tabBarPadding: CGFloat = -1
         static let fontSizeMedium: CGFloat = 16
     }
     
