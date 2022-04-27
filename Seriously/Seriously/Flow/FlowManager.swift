@@ -47,7 +47,7 @@ extension FlowManager: HomeViewControllerProtocol {
         DispatchQueue.main.async {
             let viewModel = DetailsViewModel()
             let detailsViewController = DetailsViewController(detailsData: tvShowData, viewModel: viewModel)
-            self.homeViewController.present(detailsViewController, animated: true, completion: nil)
+            self.tabBarViewController.present(detailsViewController, animated: true, completion: nil)
         }
     }
 }
