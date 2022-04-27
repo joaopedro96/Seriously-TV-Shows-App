@@ -94,12 +94,18 @@ class HomeMainTableHeaderView: UIView {
     }
     
     private func addConstraints() {
+        let bannerHeightConstraint = highlightBannerView.heightAnchor.constraint(equalToConstant: Metrics.screenWidth * Metrics.bannerRelativeHeight)
+        bannerHeightConstraint.priority = .defaultHigh
+        
+        let bannerBottomConstraint = highlightBannerView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -Metrics.bigMargin)
+        bannerBottomConstraint.priority = .fittingSizeLevel
+        
         NSLayoutConstraint.activate([
             highlightBannerView.topAnchor.constraint(equalTo: topAnchor),
             highlightBannerView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: Metrics.margin),
             highlightBannerView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -Metrics.margin),
-            highlightBannerView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -Metrics.bigMargin),
-            highlightBannerView.heightAnchor.constraint(equalToConstant: Metrics.screenWidth * Metrics.bannerRelativeHeight),
+            bannerBottomConstraint,
+            bannerHeightConstraint,
             
             likeButton.centerYAnchor.constraint(equalTo: highlightBannerView.bottomAnchor),
             likeButton.trailingAnchor.constraint(equalTo: highlightBannerView.trailingAnchor, constant: -Metrics.bigMargin)
