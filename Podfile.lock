@@ -1,0 +1,30 @@
+PODS:
+  - CircularCarousel (1.0.0)
+  - Realm (10.28.0):
+    - Realm/Headers (= 10.28.0)
+  - Realm/Headers (10.28.0)
+  - RealmSwift (10.28.0):
+    - Realm (= 10.28.0)
+  - SkeletonView (1.29.2)
+
+DEPENDENCIES:
+  - CircularCarousel
+  - RealmSwift
+  - SkeletonView
+
+SPEC REPOS:
+  trunk:
+    - CircularCarousel
+    - Realm
+    - RealmSwift
+    - SkeletonView
+
+SPEC CHECKSUMS:
+  CircularCarousel: 6248f5892c018fc2d115d4d5186be91d46bacbea
+  Realm: a0dd4e07530faaa327244ddb4ecb445c98f0537a
+  RealmSwift: 625a21f03e01e80f6b9b86bade269ebebcd7892c
+  SkeletonView: 915a80ecc2b6421ab7ac0f0212321c0cc1406472
+
+PODFILE CHECKSUM: 10cfae90f30d089fb0edb670b2115e44ae7ef468
+
+COCOAPODS: 1.11.2
